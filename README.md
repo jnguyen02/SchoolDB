@@ -2,7 +2,8 @@
 **INTRO:** <br>
 A java program that can search through and perform queries on a school database using JDBC and MYSQL.
 
-![image](https://github.com/jnguyen02/SchoolJDBC/assets/111792553/51fb1447-cf17-446c-a2fa-21dbaadc0c1d)
+![image](https://github.com/jnguyen02/projectcodes/assets/111792553/cadf21b5-8115-4efb-a0cb-9387eb68674f)
+
 
 
 **HOW IT WORKS AND IMPLEMENTATION:**
@@ -23,12 +24,13 @@ The getClassStats() function counts the number of students that are currently ta
 (User input 7)
 The getQuery() function execute a query that the user inputs, you can also input statements like inserts and it’ll work. It first checks whether the query starts with “select” (upper or lowercase doesn’t matter), else it will simply do an executeUpdate for the given statement. If it starts with “select”  I use resultsetmetadata to get the formatting of the table. ResultSetMetaData has built-in methods like .getColumnCount() which is pretty useful to use to print out the column names, and get the input.
 
-![image](https://github.com/jnguyen02/SchoolJDBC/assets/111792553/fcd7922d-64c2-4863-aa3e-6b5715c9c792)
-![image](https://github.com/jnguyen02/SchoolJDBC/assets/111792553/c9c21d53-96b8-4be0-a275-aa3e8526f7c2)
-![image](https://github.com/jnguyen02/SchoolJDBC/assets/111792553/d8704468-0ef6-49c9-8337-0553761902bd)
-![image](https://github.com/jnguyen02/SchoolJDBC/assets/111792553/94013280-92d2-434c-b7a1-6ddcc269ceae)
-![image](https://github.com/jnguyen02/SchoolJDBC/assets/111792553/4c138abd-1717-4c60-aa62-5241bbdb45d3)
-![image](https://github.com/jnguyen02/SchoolJDBC/assets/111792553/9d671269-b065-498c-844b-95ec685ad09c)
+![image](https://github.com/jnguyen02/projectcodes/assets/111792553/250387c3-5cd1-4ccb-8650-8919c6645f64)
+![image](https://github.com/jnguyen02/projectcodes/assets/111792553/50991330-43f7-47d6-9fcb-01701ab0143b)
+![image](https://github.com/jnguyen02/projectcodes/assets/111792553/2001db49-5430-4bfa-a897-8e8f2819771b)
+![image](https://github.com/jnguyen02/projectcodes/assets/111792553/14072b1d-2fc0-4511-9fa8-637e8001336a)
+![image](https://github.com/jnguyen02/projectcodes/assets/111792553/817f11ab-fb69-42a5-8fbb-2a16e8ec6cd3)
+
+
 
 <hr>
 
@@ -136,7 +138,7 @@ DELIMITER ;<br>
 
 I manually insert data directly into the database for smaller tables like classes and departments. However, for larger tables like the students table, I used tools like Mockaroo to generate random data in SQL format. To populate the 'hastaken' table with data, I used a random number generator in Java that was connected with JDBC. Each number generated was assigned a predefined class, grade, and other related information. I would loop this like 25 times for each students to ensure that I get a specific number of credits to make the student a senior, and then lower it to 20 times for juniors etc.
 
-![image](https://github.com/jnguyen02/SchoolJDBC/assets/111792553/f414c947-a8ab-4d0d-8c80-f8fe0468c7a7)
-![image](https://github.com/jnguyen02/SchoolJDBC/assets/111792553/5b146cb0-2a38-48a2-ba96-ea086cbc76f1)
-![image](https://github.com/jnguyen02/SchoolJDBC/assets/111792553/86b3c4e9-3879-457e-a364-bee1c047c6ae)
+![image](https://github.com/jnguyen02/projectcodes/assets/111792553/e7a804f9-726e-43ec-b671-b9458d4b4f34)
+![image](https://github.com/jnguyen02/projectcodes/assets/111792553/16d8ee0a-2f6e-40cc-987a-6aaa1ed762af)
+![image](https://github.com/jnguyen02/projectcodes/assets/111792553/69d98a0b-bc39-48e1-8534-9a61d2d7d596)
 
