@@ -4,7 +4,6 @@ A java program that can search through and perform queries on a school database 
 
 ![image](https://github.com/jnguyen02/SchoolJDBC/assets/111792553/51fb1447-cf17-446c-a2fa-21dbaadc0c1d)
 
-**NOTE I am running this code with vscode (might not work for other editors)**<br>
 
 **HOW IT WORKS AND IMPLEMENTATION:**
 
